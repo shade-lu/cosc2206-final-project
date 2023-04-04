@@ -1,0 +1,75 @@
+/* Base Styles */
+html {
+    background-color: #121212;
+}
+body {
+    background-color: #212121;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FAFAFA;
+    border-radius: .5em;
+    width: 90%;
+    margin: 1em auto;
+}
+header {
+    background-color: #1d1d1d;
+    border-radius: .5em .5em 0 0;
+}
+main {
+    margin: 0;
+    display: flex;
+}
+main article {
+    width: 50%;
+    flex-grow: 1;
+}
+main section {
+    width: 25%;
+    flex-grow: 1;
+}
+main aside {
+    width: 25%;
+    flex-grow: 1;
+}
+footer {
+    background-color: #1d1d1d;
+    border-radius: 0 0 .5em .5em;
+}
+
+/* Link Styles */
+a:link {
+    color: #FAFAFA;
+}
+a:visited {
+    color: #FAFAFA;
+}
+a:hover {
+    color: steelblue;
+}
+a:active {
+    color: #FAFAFA;
+}
+
+/* Lists */
+ul {
+    margin: 0;
+}
+li {
+    margin: .5em 0;
+}
+
+/* Text */
+p {
+    padding: 1em 1rem 1em;
+    margin: 0;
+}
+header h2 {
+    padding: 1rem;
+}
+footer p {
+    padding: 1em;
+    text-align: center;
+}
+main h3 {
+    margin: 0;
+    padding-left: 1rem;
+}
