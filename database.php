@@ -1,14 +1,14 @@
 <?php
-    $dsn = 'mysql:host=localhost;dbname=test';
-    $username = 'root';
-    $password = 'pa55word';
+    $dsn = 'mysql:host=localhost;port=3306;dbname=SKaiserdb';
+    $username = 'SKaiser';
+    $password = 'QIBFYAVj';
     $options = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);
 
     try {
         $db = new PDO($dsn, $username, $password, $options);
     } catch (PDOException $e) {
-        $error = $e->getMessage();
-        include 'error.php';
+        $error_message = $e->getMessage();
+        include('database_error.php');
         exit();
     }
 ?>
