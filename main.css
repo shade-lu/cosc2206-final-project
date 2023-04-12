@@ -13,6 +13,23 @@ body {
 header {
     background-color: #1d1d1d;
     border-radius: .5em .5em 0 0;
+    display: flex;
+}
+header h2 {
+    width: 75%;
+    flex-grow: 1;
+    align-items: center;
+}
+header nav {
+    display: flex;
+    width: auto;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1rem;
+}
+header nav a {
+    text-decoration: none;
 }
 main {
     margin: 0;
@@ -72,4 +89,36 @@ footer p {
 main h3 {
     margin: 0;
     padding-left: 1rem;
+}
+#top {
+    padding-top: 1rem;
+}
+
+/* Fields */
+
+fieldset {
+    margin: 1rem;
+    padding: 1rem;
+}
+label {
+    width: 8em;
+    float: left;
+    margin-bottom: .5em;
+    margin-right: .5em;
+}
+
+/* Tables (code taken from tech_support) */
+table {
+    margin: 1rem;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px dashed black;
+    padding: .2em .5em .2em .5em;
+    text-align: left;
+}
+
+img {
+    margin: 1rem;
 }
